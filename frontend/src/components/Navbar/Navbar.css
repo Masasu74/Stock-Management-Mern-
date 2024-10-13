@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(107, 5, 22);
+    color: white;
+    align-items: center;
+    gap: 100px;
+    padding: 20px
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.nav ul li a:hover{
+    color: rgb(7, 214, 14);
+    border-bottom: 1px solid rgb(7, 214, 14);
+}
